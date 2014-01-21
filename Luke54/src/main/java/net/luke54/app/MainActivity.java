@@ -22,7 +22,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         aq = new AQuery(this);
-        aq.id(R.id.test).text("AQuery test go");
+        aq.id(R.id.test).text("AQuery test go go go ");
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
